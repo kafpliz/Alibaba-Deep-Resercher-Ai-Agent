@@ -19,28 +19,23 @@
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0;">
 
 <div>
-<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Главная страница</p>
+<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div>
-<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Диалог с агентом</p>
+<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+</div>
+<div>
+<img src="docs/images/web-3.png" alt="История запросов" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div>
-<img src="docs/images/web-3.png" alt="История запросов" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">История запросов</p>
-</div>
-
-<div>
-<img src="docs/images/web-4.png" alt="Настройки" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Настройки</p>
+<img src="docs/images/web-4.png" alt="Настройки" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div style="grid-column: span 2;">
-<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
-<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Обработка ошибок</p>
+<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Ошибки доступа</p>
 </div>
 
 </div>
