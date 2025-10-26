@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/kafpliz/Alibaba-Deep-Researcher-Ai-Agent?style=for-the-badge)](https://github.com/kafpliz/Alibaba-Deep-Researcher-Ai-Agent/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
 
