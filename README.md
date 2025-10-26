@@ -29,7 +29,7 @@
 
 
 
-<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style=" width: 100%; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
+<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style=" width: 40%; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
 <p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Ошибки доступа</p>
 
 
