@@ -19,18 +19,18 @@
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0;">
 
 <div>
-<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 40%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div>
-<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 40%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 <div>
-<img src="docs/images/web-3.png" alt="История запросов" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="docs/images/web-3.png" alt="История запросов" style="width: 40%; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div>
-<img src="docs/images/web-4.png" alt="Настройки" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<img src="docs/images/web-4.png" alt="Настройки" style="width: 40%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 </div>
 
 <div style="grid-column: span 2;">
