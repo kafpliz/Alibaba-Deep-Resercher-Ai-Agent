@@ -12,43 +12,35 @@
 
 **Alibaba Deep Researcher AI Agent** - это полнофункциональное веб-приложение, построенное на основе передовой технологии [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch). Наш агент предоставляет интеллектуальные исследовательские возможности с расширенными функциями взаимодействия.
 
-<<div align="center">
+<div align="center">
 
 ## 🖥️ Скриншоты Интерфейса
 
-### Основной Функционал
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 30px 0;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0;">
 
 <div>
-<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Главная страница приложения</p>
+<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Главная страница</p>
 </div>
 
 <div>
-<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Диалог с AI агентом</p>
+<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Диалог с агентом</p>
 </div>
 
 <div>
-<img src="docs/images/web-3.png" alt="История запросов" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">История исследований</p>
+<img src="docs/images/web-3.png" alt="История запросов" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">История запросов</p>
 </div>
 
 <div>
-<img src="docs/images/web-4.png" alt="Настройки" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Настройки приложения</p>
+<img src="docs/images/web-4.png" alt="Настройки" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Настройки</p>
 </div>
 
-</div>
-
-### Обработка Ошибок
-
-<div style="display: flex; justify-content: center; margin: 30px 0;">
-
-<div style="max-width: 600px;">
-<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
-<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Система обработки ошибок</p>
+<div style="grid-column: span 2;">
+<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
+<p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Обработка ошибок</p>
 </div>
 
 </div>
@@ -56,6 +48,43 @@
 *Современный веб-интерфейс для взаимодействия с AI агентом*
 
 </div>
+
+
+## 🏗 Архитектура Приложения
+
+<div align="center">
+
+Alibaba-Deep-Researcher-Ai-Agent/
+├── 📂 Ветка: client
+│ ├── src/
+│ │ ├── app/
+│ │ │ ├── core/ # Сервисы API и взаимодействия компонентов
+│ │ │ ├── pages/ # Компоненты
+│ │ │ └── shared/ # Промежуточное ПО
+│ │ └── main.ts
+│ ├── public/
+│ ├── package.json
+│ └── README.md
+│
+├── 📂 Ветка: server
+│ ├── src/
+│ │ ├── auth/ # Обработчик маршрутов auth
+│ │ ├── chat/ # Обработчик маршрутов chat
+│ │ ├── generate-webapp-url/ # Обработчик маршрутов generate-webapp-url
+│ │ └── shared/ # Промежуточное ПО
+│ ├── config/
+│ ├── package.json
+│ └── README.md
+│
+└── 📂 Ветка: main
+├── README.md # Основная документация
+├── .gitignore
+└── docs/ # Исходники
+
+*Модульная архитектура с разделением на клиент и сервер в рамках одного репозитория*
+
+</div>
+
 
 ## ✨ Ключевые Возможности
 
