@@ -1,8 +1,6 @@
 # 🤖 Alibaba Deep Researcher AI Agent
 
 <div align="center">
-
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
 
 </div>
