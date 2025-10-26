@@ -1,0 +1,29 @@
+<div class="wrapper">
+    <div class="content" #scrollContainer>
+        <div class="message">Привет! Я ИИ агент, готов услышвать твой вопрос.</div>
+        @for (item of chat; track $index) {
+        <div class="message request" [innerHTML]="item.question | markdown"> </div>
+        @if(item.answer) { <div class="message" [innerHTML]="item.answer | markdown"></div>}
+
+        }
+        @if (isLoading) {
+        <div class="wait-dots">
+            <span class="dot dot-1"></span>
+            <span class="dot dot-2"></span>
+            <span class="dot dot-3"></span>
+        </div>
+        }
+    </div>
+
+    <div class="panel">
+        <textarea class="placeholder" rows="2" cols="30" pTextarea [autoResize]="true" [(ngModel)]="text"
+            (keydown)="keyPress($event)" style="max-height: 646px; font-size: 15px; font-weight: 700;"></textarea>
+        <div class="send" (click)="send()"><svg [ngClass]="{'disabled': isLoading}" width="100%" height="100%"
+                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="send-alt" class="icon glyph">
+                <path
+                    d="M21.88,4.73,16.2,20.65A2,2,0,0,1,14.3,22h0a2,2,0,0,1-1.9-1.31l-2.12-5.52,1.54-1.54,2.49-2.49a1,1,0,1,0-1.42-1.42l-2.49,2.49L8.82,13.76,3.31,11.63a2,2,0,0,1,0-3.83L19.27,2.12a2,2,0,0,1,2.61,2.61Z">
+                </path>
+            </svg></div>
+    </div>
+
+</div>
