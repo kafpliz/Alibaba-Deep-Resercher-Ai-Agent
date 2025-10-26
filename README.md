@@ -16,7 +16,7 @@
 
 ## 🖥️ Скриншоты Интерфейса
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
 
 <div>
 <img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 40%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
