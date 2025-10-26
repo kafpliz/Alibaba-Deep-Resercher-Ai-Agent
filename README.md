@@ -12,13 +12,47 @@
 
 **Alibaba Deep Researcher AI Agent** - это полнофункциональное веб-приложение, построенное на основе передовой технологии [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch). Наш агент предоставляет интеллектуальные исследовательские возможности с расширенными функциями взаимодействия.
 
-<div align="center">
+<<div align="center">
 
-![Web Interface](docs/images/web-1.png)
-![Web Interface](docs/images/web-2.png)
-![Web Interface](docs/images/web-3.png)
-![Web Interface](docs/images/web-4.png)
-![Web Interface](docs/images/web-err-1.png)
+## 🖥️ Скриншоты Интерфейса
+
+### Основной Функционал
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 30px 0;">
+
+<div>
+<img src="docs/images/web-1.png" alt="Главный интерфейс" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Главная страница приложения</p>
+</div>
+
+<div>
+<img src="docs/images/web-2.png" alt="Диалог с агентом" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Диалог с AI агентом</p>
+</div>
+
+<div>
+<img src="docs/images/web-3.png" alt="История запросов" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">История исследований</p>
+</div>
+
+<div>
+<img src="docs/images/web-4.png" alt="Настройки" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Настройки приложения</p>
+</div>
+
+</div>
+
+### Обработка Ошибок
+
+<div style="display: flex; justify-content: center; margin: 30px 0;">
+
+<div style="max-width: 600px;">
+<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
+<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #666;">Система обработки ошибок</p>
+</div>
+
+</div>
+
 *Современный веб-интерфейс для взаимодействия с AI агентом*
 
 </div>
