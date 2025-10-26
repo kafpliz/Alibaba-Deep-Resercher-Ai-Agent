@@ -34,7 +34,7 @@
 
 
 <div style="grid-column: span 2;">
-<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 40%; height: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
+<img src="docs/images/web-err-1.png" alt="Обработка ошибок" style="width: 40%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
 <p style="text-align: center; margin: 8px 0 0 0; font-size: 12px; color: #666;">Ошибки доступа</p>
 </div>
 
@@ -48,33 +48,7 @@
 ## 🏗 Архитектура Приложения
 
 <div align="center">
-
-Alibaba-Deep-Researcher-Ai-Agent/
-├── 📂 Ветка: client
-│ ├── src/
-│ │ ├── app/
-│ │ │ ├── core/ # Сервисы API и взаимодействия компонентов
-│ │ │ ├── pages/ # Компоненты
-│ │ │ └── shared/ # Промежуточное ПО
-│ │ └── main.ts
-│ ├── public/
-│ ├── package.json
-│ └── README.md
-│
-├── 📂 Ветка: server
-│ ├── src/
-│ │ ├── auth/ # Обработчик маршрутов auth
-│ │ ├── chat/ # Обработчик маршрутов chat
-│ │ ├── generate-webapp-url/ # Обработчик маршрутов generate-webapp-url
-│ │ └── shared/ # Промежуточное ПО
-│ ├── config/
-│ ├── package.json
-│ └── README.md
-│
-└── 📂 Ветка: main
-├── README.md # Основная документация
-├── .gitignore
-└── docs/ # Исходники
+<img src="docs/images/archt.png" alt="Архитектура приложения" style="width: 100%;  object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border: 2px solid #ff6b6b;">
 
 *Модульная архитектура с разделением на клиент и сервер в рамках одного репозитория*
 
