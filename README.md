@@ -73,36 +73,6 @@
 - Готовая интеграция с Telegram платформой
 - Мобильная адаптация для удобного доступа
 
-
-## 🏗 Архитектура Приложения
-
-Alibaba-Deep-Researcher-Ai-Agent/
-├── 📂 Ветка: client
-│   ├── src/
-│   │   ├── app/
-|   |   |   |── core    # Сервисы API и взаимодействия компонентов
-|   |   |   |── pages   # Компонетны
-|   |   |   └── shared  # Промежуточное ПО
-│   │   └── main.ts        
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-├── 📂 Ветка: server
-│   ├── src/
-│   │   ├── auth/                   # Обработчик маршутов auth
-│   │   ├── chat/                   # Обработчик маршутов chat
-│   │   ├── generate-webapp-url/    # Обработчик маршутов generate-webapp-url
-│   │   └── shared/    # Промежуточное ПО
-│   ├── config/
-│   ├── package.json
-│   └── README.md
-│
-└── 📂 Ветка: main
-    ├── README.md          # Основная документация
-    ├── .gitignore
-    └── docs/              # Исходники
-
 ## 🚀 Быстрый Старт
 
 ### 📋 Предварительные Требования
